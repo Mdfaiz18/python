@@ -1,0 +1,24 @@
+Chimera 
+1.	Instructions to set background colour as white
+Open Chimera
+Select Tools > General Control > Command Line 
+2.	Instructions for rainbow depiction of a 3D structure
+Select Tool > Depiction > Rainbow
+Click Apply from the dialogue box
+3.	Instructions for superposition of 3D structures and Match/Assess
+Select File > open > select downloaded “pdb” file 
+Select File > Fetch by Id > enter the PDB ID of the structure to open
+We now have both structures for superposition opened in our window.
+To Supuerimpose
+Select > Tools > Structure Comparison > Match Maker
+From the resultant dialogue, in the reference structure column 
+Select native structure (example ‘3P49’)
+In the “Structure to match” column
+Select the predicted structure (pdb file) to match.
+Click > Apply
+From Tools > Structure Comparison > select Match -> Align
+From resultant dialogue box, Select Structure > Assess Match
+Click OK
+From the resultant Dialogue box, Select Attribute > mavRMSDca
+ 
+This window displays RMSD value of the residues. In this case, the RMSD values of residues of predicted structure lies between 0.313754 and 4.89672. 
